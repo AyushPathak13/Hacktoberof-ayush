@@ -1,20 +1,9 @@
-i=0
+i=int(input("Enter a number: "))
 while(True):
-    if i+1<5:
+    if i+1<0:
         i=i+1
         continue
     print(i+1, end=" ")
-    if(i==44):
-        break #stop the loop
+    if(i==99):
+        break
     i=i+1
-#Yaha Parrr
-
-# while(True):
-#     inp=int(input("Enter a number:\n"))
-#     if inp>100:
-#         print("Congrats you have entered a number greater than 100\n")
-#         break
-#     else:
-#         print("Try again!!!\n")
-#         continue
-    
